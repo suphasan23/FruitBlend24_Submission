@@ -1,0 +1,4 @@
+# Needed only for rebuilding the analysis. Viewing app.py uses standard library.
+pandas==3.0.1
+numpy==2.3.5
+openpyxl==3.1.5

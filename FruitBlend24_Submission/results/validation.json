@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "cleaning_row_bridge": true,
+    "revenue_reconciles_to_orders": true,
+    "waste_reconciles_once": true,
+    "gp_identity": true,
+    "overhead_once_per_month_kitchen": true,
+    "forecast_has_three_months": true,
+    "forecast_nonnegative_units": true,
+    "forecast_gp_identity": true
+  },
+  "audit": {
+    "raw_rows": 124397,
+    "duplicate_rows_removed": 372,
+    "out_of_scope_rows_removed": 370,
+    "clean_rows": 123655,
+    "raw_revenue": 31276898.6,
+    "duplicate_revenue_removed": 91488.03,
+    "out_of_scope_revenue_removed": 38478.0,
+    "clean_revenue": 31146932.57,
+    "price_exceptions": 0,
+    "raw_product_labels": 31,
+    "canonical_skus": 5,
+    "retained_zero_prices": 0,
+    "imputed_launch_cost_rows": 75,
+    "imputed_launch_cost_units": 322,
+    "imputed_launch_cost_total_thb": 10848.18,
+    "imputed_waste_cost_rows": 4,
+    "imputed_waste_cost_total_thb": 4002.24,
+    "source_sha256": "c2869ce419bf796bf1351c46b6bdd813a4c35add7031c4e143630858a0a6c6f8",
+    "remaining_business_key_duplicates": 0,
+    "mixed_promo_day_groups": 0,
+    "sales_day_groups_without_waste_record": 6,
+    "zero_sales_active_day_groups": 0
+  }
+}
